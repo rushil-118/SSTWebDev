@@ -1,0 +1,142 @@
+* {
+    font-family: ‘Lato’, sans-serif;
+    box-sizing: border-box;
+}
+
+header a,
+header h2,
+header h3 {
+    color: white;
+}
+.nav{
+    padding: 2rem;
+    display: flex;
+}
+.nav img{
+    margin-left: 20rem;
+    margin-right: 5rem;
+    background-color: black;
+    height: 80px;
+    width: 80px;
+}
+
+.navchild{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.profile img{
+    height: 400px;
+    width: 400px;
+    margin: 2rem 5rem 0 5rem;
+}
+
+.profile{
+    padding: 2rem;
+    display: flex;
+}
+.profile img{
+    margin-left: 15rem;
+}
+.profile-child{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+header a {
+    text-decoration:wavy;
+    text-transform: uppercase;
+}
+
+header h1,
+span,
+button {
+    color: #5DA9E9;
+}
+
+header,
+header button {
+    background-color: black;
+    border-color: #5DA9E9;
+    font-weight: 600;
+}
+
+header button:hover {
+    background-color: #5DA9E9;
+    color:white;
+    border-color: black;
+    cursor: pointer;
+}
+
+header img {
+    width: 400px;
+    height: 400px;
+}
+
+section.about {
+    background-color: white;
+}
+
+section.about img {
+    width: 30%;
+}
+
+section.about a img {
+    width: 3em;
+}
+
+section.projects {
+    background-color: black;
+}
+
+.projects-head {
+    color: white;
+}
+
+section.projects div.card {
+    background-color: white;
+    width: 20%;
+}
+
+section.projects div.card img {
+    width: 3em;
+}
+
+section.projects div.card:hover {
+    
+    background-color: #5DA9E9;
+}
+
+section.projects h2 {
+    color: #5DA9E9;
+}
+
+section.projects div.card:hover h2 {
+
+    color: white;
+}
+
+.contact-section {
+    background-color: white;
+    
+}
+.contact{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-section * {
+    width: 100%;
+}
+
+.contact-section h1,
+.contact-section span {
+    color: #5DA9E9;
+}
+
+.contact-section #submit_button {
+    background-color: #5DA9E9;
+}
